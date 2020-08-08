@@ -1,0 +1,343 @@
+body{
+    overflow-x: hidden;
+}
+
+/* header */
+.header .navbar{
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.1);
+}
+.header .navbar .media {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header .navbar .media p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.header .navbar .media h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.header .navbar ul li{
+    margin-left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.header .navbar-nav .active>.nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00AF00 !important;
+}
+
+
+/* galeri */
+.galeri h2{
+    margin-top: 80px;
+    margin-bottom: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #00AF00;
+}
+.galeri .overlay-slide {
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.galeri .overlay-slide .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+.galeri .overlay-slide .text-muted {
+	font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    color: white !important;
+    margin-bottom: 0;
+}
+.galeri .overlay-slide h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+.galeri .carousel{
+    margin-bottom: 60px !important;
+    margin-top: 30px;
+}
+.img .galeri1{
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.img .youtube{
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+}
+ .img .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 10px;
+}
+.img .desc p{
+    padding-top: 80%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 21px;
+    color: #FFFFFF !important;
+}
+.img .desc h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.galeri .overlay-slide .text-muted {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: white !important;
+    margin-bottom: 0;
+}
+
+.carousel-indicators li{
+    border-radius: 50% !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #E5E5E5 !important;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators {
+    top: 100% !important;
+}
+.carousel-indicators .active{
+    background-color: #00AF00 !important;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 54px;
+    background: linear-gradient(204.93deg, #023B09 -8.53%, #00AF00 25.74%);
+}
+.footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 32px;
+    padding: 15px 0;
+}
+.footer p span{
+    color: yellow;
+}
+
+
+
+@media (max-width: 576px){
+    .galeri .galeri1{
+        margin-bottom: 80px;
+        margin-top: 30px;
+    }
+    .galeri .img .youtube{
+        margin-top: -70%;
+    }
+    .img .youtube {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 94%;
+        height: 80%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .carousel .img .youtube{
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 93%;
+        height: 79%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .img .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 90px;
+        padding: 10px;
+    }
+    .carousel .youtube{
+        margin-top: -70%;
+    }
+    .overlay-slide .galeri3, .galeri4{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1200px){
+    .galeri .galeri1{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .img .youtube{
+        margin-top: -70%;
+    }
+    .carousel .youtube{
+        margin-top: -70%;
+    }
+    .galeri .overlay-slide p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px !important;
+        line-height: 21px;
+        color: white !important;
+        margin-bottom: 0;
+    }
+    .galeri .overlay-slide h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px !important;
+        line-height: 30px !important;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+    .img .youtube{
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 95% !important;
+        height: 100%;
+        padding-top: 40%;
+        top: 64% !important;
+    }
+}
+
+@media (min-width: 768px){
+    .galeri .galeri1{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .galeri .img-2 .galeri2{
+        margin-top: 0px;
+    }
+    .img .youtube{
+        margin-top: -60% !important;
+    }
+    .carousel .youtube{
+        margin-top: -60%;
+    }
+    .img .youtube {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 91%;
+        height: 99%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .carousel .img .youtube {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(238.71deg, rgba(2, 59, 9, 0.5) 0%, rgba(0, 175, 0, 0.5) 61.61%);
+        width: 92%;
+        height: 100%;
+        top: 66%;
+        padding-top: 40%;
+    }
+    .img .desc {
+        position: absolute;
+        box-sizing: border-box;
+        bottom: 0px;
+        padding: 10px;
+    }
+    .galeri .col-sm .desc h5{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .galeri .col-sm .desc p{
+        font-size: 10px;
+    }
+    .galeri .desc h5{
+        font-size: 18px;
+    }
+}

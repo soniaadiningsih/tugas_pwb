@@ -1,0 +1,338 @@
+/* header */
+.header .navbar{
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(51, 51, 51, 0.1);
+}
+.header .navbar .media {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header .navbar .media p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.header .navbar .media h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+}
+.header .navbar ul li{
+    margin-left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.header .navbar-nav .active>.nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00AF00 !important;
+}
+
+
+
+/* artikel terbaru */
+.artikel .artikel_terbaru h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #00AF00;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.artikel .artikel_terbaru .img{
+    position: relative;
+}
+.artikel .artikel_terbaru .img::before{
+    position: absolute;
+    background: #000000;
+    opacity: 0.5;
+    border-radius: 4px;
+    content: '';
+    z-index: 1;
+    padding: 0;
+}
+.artikel .artikel_terbaru .desc{
+    position: absolute;
+    margin-top: -76%;
+    text-align: center;
+    padding: 0 3%;
+    box-sizing: border-box;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.315);
+    width: 92%;
+    height: 96%;
+    border-radius: 4px;
+}
+.artikel .artikel_terbaru .desc h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    margin-top: 24px;
+}
+.artikel .artikel_terbaru .desc .date{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F9F9;
+}
+.artikel .artikel_terbaru .btn{
+    margin-top: 250px !important;
+}
+.artikel .artikel_terbaru .btn-success{
+    background: linear-gradient(354.43deg, #023B09 -67.3%, #00AF00 79.93%);
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7F9F9;
+    padding: 8px 27px;
+}
+
+/* artikel menarik */
+.artikel_menarik h2{
+    margin-top: 56px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #00AF00;
+}
+.overlay-slide {
+	position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.overlay-slide .desc {
+	position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    background: linear-gradient(356.56deg, #023B09 -67.3%, #00AF00 79.93%);
+    width: 95%;
+    height: 40%;
+    padding: 20px 10px;
+}
+.overlay-slide h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7F9F9;
+    text-align: center;
+}
+.media-body h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.media-body p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.media-body p .link{
+    color: #00AF00;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.carousel-indicators li{
+    border-radius: 50% !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #E5E5E5 !important;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators {
+    top: 100% !important;
+}
+.carousel-indicators .active{
+    background-color: #00AF00 !important;
+}
+
+
+
+/* footer */
+.footer {
+    background: linear-gradient(204.93deg, #023B09 -8.53%, #00AF00 25.74%);
+    margin-top: 45px;
+}
+.footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 32px;
+    padding: 15px 0;
+}
+.footer p span{
+    color: yellow;
+}
+
+
+
+@media (max-width: 576px){
+    .artikel .artikel_terbaru .img {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .artikel .artikel_terbaru .desc {
+        position: absolute;
+        top: 70%;
+        padding: 0 26%;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    .artikel .artikel_terbaru .desc{
+        position: absolute;
+        margin-top: -530px;
+        text-align: center;
+        padding: 0 3%;
+        box-sizing: border-box;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.315);
+        width: 94%;
+        height: 97%;
+        border-radius: 4px;
+    }
+    .media-body h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    .media-body p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 21px;
+        color: #333333;
+    }
+}
+
+@media (min-width: 768px){
+    .artikel .artikel_terbaru .desc {
+        position: absolute;
+        top: 270px;
+        padding: 0 19%;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        text-align: center;
+        padding: 0 3%;
+        box-sizing: border-box;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.315);
+        width: 84%;
+        height: 98%;
+        border-radius: 4px;
+    }
+    .artikel .artikel_terbaru .img{
+        padding-bottom: 20px;
+    }
+    .artikel .artikel_terbaru .btn{
+        margin-top: 250px !important;
+    }
+}
+
+@media (min-width: 1200px){
+    .artikel .artikel_terbaru .img{
+        position: relative;
+    }
+    .artikel .artikel_terbaru .desc {
+        position: absolute;
+        top: 180px;
+        padding: 0 3%;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    .media-body h3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    .media-body p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .artikel .artikel_terbaru .desc{
+        position: absolute;
+        margin-top: -63%;
+        text-align: center;
+        padding: 0 3%;
+        box-sizing: border-box;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.315);
+        width: 90%;
+        height: 96%;
+        border-radius: 4px;
+    }
+    .artikel .artikel_terbaru .btn{
+        margin-top: 180px !important;
+    }
+}
