@@ -40,3 +40,10 @@ Route::get('contact', function () {
 Route::get('artikel-detail', function () {
     return view('artikel-detail');
 });
+
+
+Route::get('/index', 'PagesController@jurusan');
+
+Route::get('/jurusan', 'JurusanController@jurusan');
+ 
+Route::post('/proses', 'JurusanController@proses');
