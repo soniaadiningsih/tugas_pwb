@@ -16,5 +16,9 @@ class PagesController extends Controller
         // $jurusan = \App\jurusan::all();
         return view('jurusan/index', ['jurusan' => $jurusan]);
     }
-
+    
+    public function create()
+    {
+        
+    }
 }

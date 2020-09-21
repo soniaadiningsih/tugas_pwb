@@ -42,8 +42,13 @@ Route::get('artikel-detail', function () {
 });
 
 
-Route::get('/index', 'PagesController@jurusan');
-
-Route::get('/jurusan', 'JurusanController@jurusan');
- 
-Route::post('/proses', 'JurusanController@proses');
+// jurusan
+Route::get('/jurusan', 'JurusanController@index');
+Route::get('/jurusan/create', 'JurusanController@create'); 
+Route::get('/jurusan/{jurusan}', 'JurusanController@show'); 
+Route::post('/jurusan', 'JurusanController@store'); 
+Route::post('/jurusan/create', 'JurusanController@store');
+Route::post('/jurusan/{jurusan}', 'JurusanController@delete');
+Route::delete('/jurusan/{jurusan}', 'JurusanController@destroy');
+Route::get('/jurusan/{jurusan}/edit', 'JurusanController@edit');
+Route::patch('/jurusan/{jurusan}', 'JurusanController@update'); 
